@@ -1,0 +1,50 @@
+.description {
+
+	/* when you augment the size of the window the image width will adapt but no
+	more than 640px */ 
+	max-width: 705px;
+
+	font-style: oblique;
+
+
+}
+
+.title {
+
+  color: white;
+  background-color: #33BEBE;
+}
+
+
+
+.screenshot {
+
+	
+	max-width: 460px ;
+	margin-right: 10px;
+}
+
+
+.app {
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+* {
+   outline: 1px solid red !important;
+}
+
+
+
+* {
+	/* specific prefixes for navigators as box-sizing is a new feature */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    /* size of element will include  size of ( content + border + padding) 
+	
+    */
+    box-sizing: border-box;
+} 
+
