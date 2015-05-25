@@ -2,3 +2,16 @@ CSS
 most specific rule apply
 
 size of element = size of ( content + border + padding)
+
+sublime
+
+reindent : 
+
+Edit → Line → Reindent
+
+OR
+
+{ "keys": ["f12"], "command": "reindent"}  
+then type f12
+
+comment/ uncomment: ctrl + /

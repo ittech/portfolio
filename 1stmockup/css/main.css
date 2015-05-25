@@ -1,0 +1,109 @@
+* {
+    /*border: 1px solid red !important;*/
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+
+    font-family: 'Lato', sans-serif;
+}
+/* change the behaviour of a css file depending 
+on media type */
+/* if <= max-width make parag disapper */
+/* if >= min-width ********************/
+@media only screen and ( max-width: 400px)  {
+
+  p { 
+    background-color: blue;
+    display: none;
+  }
+}
+
+.grid {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.row {
+    width: 100%;
+    /* padding = create negative space inside the element 
+      margin = create negative space outside the element
+      = pushes the box away from other elements*/
+    margin-bottom: 20px;
+    /* enable children elements to be inline */
+    display: flex;
+    /*  By default, flex items will all try 
+    to fit onto one line. You can change 
+    that and allow the items to wrap
+     as needed with this property */
+    flex-wrap: wrap;
+    
+}
+
+.col-1 {
+  /* 1/12=8.33% */
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+img { 
+/* max-width and height make
+ image autosize proprely */
+max-width: 80%;
+height: auto ;
+margin-left: 25px;
+}
+
+h3 {
+    text-align: center;
+}
